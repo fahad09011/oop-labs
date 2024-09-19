@@ -1,6 +1,6 @@
-// Student Name 	: Oisin Cawley
-// Student Id Number: 
-// Date 			: Nov-2015
+// Student Name 	: Muhammad fahad
+// Student Id Number: C00311349
+// Date 			: 19/09/2024
 // Purpose 			: My first class implementation
 
 public class ThermTest
