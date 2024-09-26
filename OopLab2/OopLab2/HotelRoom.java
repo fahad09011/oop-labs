@@ -1,44 +1,52 @@
 /**
  * HotelRoom
  */
- class HotelRoom {
+class HotelRoom {
 
-    private int roomnumber ;
-    private String roomType ;
+    private int roomnumber;
+    private String roomType;
+    private int roomstatus;
+    private double roomrate;
+    public HotelRoom() {
 
-    
-public HotelRoom() {
+    }
 
-}
+    // Room number//
+    public int getroomnumber() {
+        return roomnumber;
+    }
 
-public int getroomnumber(){
-    return roomnumber ;
-}
+    public void setroomnumber(int roomnumber) {
+        this.roomnumber = roomnumber;
+    }
 
-public String getroomtype(){
-    return roomType;
-}
+    // Room Type//
+    public String getroomType() {
+        return roomType;
+    }
 
-public void setroomnumber(int roomnumber){
-    this.roomnumber= roomnumber;
-}
+    public void setroomType(String roomType) {
+        this.roomType = roomType;
+    }
 
-public String getroomType(){
-        return roomType ;
-            }
+    // Room status//
+    public int getroomstatus() {
+        return roomstatus;
+    }
 
-   
-public void setroomType(String roomType){
-                this.roomType = roomType;
-            }
-// question 2 //
+    public void setroomstatus(int roomstatus) {
+        this.roomstatus = roomstatus;
+    }
 
+    // Room Rate//
+    public double getroomrate() {
+        return roomrate;
+    }
 
-// public 
-// class lab2Q1Driver {
-// public static void main(String[], args) {
-    
-// }
-    
-// }
+    public void setroomrate(double roomrate) {
+        this.roomrate = roomrate;
+    }
+
+    //for room c//
+
 }
