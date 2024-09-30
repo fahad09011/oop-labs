@@ -34,6 +34,15 @@ this.width=1.0;
         }
 
     }
+    // question 2 getarea and perameter
+    public double  getarea(){
+        return length*width;
+    }
+
+    public  double getperimeter(){
+        return 2*(length + width);
+    }
+
     @Override
     public String toString(){
         return "length = "+length +" width = "+width;
