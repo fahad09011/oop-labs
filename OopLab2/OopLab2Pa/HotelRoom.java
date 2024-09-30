@@ -47,6 +47,5 @@ class HotelRoom {
         this.roomrate = roomrate;
     }
 
-    //for room c//
 
 }
