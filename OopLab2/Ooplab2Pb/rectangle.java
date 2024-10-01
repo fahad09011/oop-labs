@@ -50,27 +50,27 @@ public class rectangle {
 
         // to print top row
         for (int i = 0; i < intwidth; i++) {
-            System.out.println("*"); //.....
+            System.out.print("*");
         }
         System.out.println();
 
         // to print left right sides
-        for(int i=0 ; i<intlength-2; i++){
-            System.out.println("*"); //left.....
-            for(int j=0 ; j<intwidth-2; j++){
-                System.out.println( " "); //center.....
+        for (int i = 0; i < intlength - 2; i++) {
+            System.out.print("*"); // left
+            for (int j = 0; j < intwidth - 2; j++) {
+                System.out.print(" "); // center
             }
-            System.out.println("*"); //right
+            System.out.println("*"); // right
         }
 
         // to print botton row
         if (intlength > 1) {
             for (int i = 0; i < intwidth; i++) {
-                System.out.println("*"); //......
+                System.out.print("*");
             }
             System.out.println();
         }
-        
+
     }
 
     @Override
