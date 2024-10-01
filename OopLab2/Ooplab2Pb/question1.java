@@ -14,7 +14,7 @@ public class question1 {
         // System.out.println("area" + rect1.getperimeter());
 
         // right values
-        rect1.setlength(5);
+        rect1.setlength(6);
         rect1.setwidth(35);
         System.out.println("right values of rectangle is " + rect1);
 
