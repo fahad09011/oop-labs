@@ -1,13 +1,14 @@
 class SavingsAccount {
     private static double annaulInterestRate;
-    private int accountCounter = 1;
+    private static  int accountCounter = 1;
     private int accountNumber;
     private double savingBalance;
 
-    public SavingsAccount(double savingBalance) {
-        this.accountCounter = accountCounter++;
+    public  SavingsAccount(double savingBalance) {
+        this.accountNumber = accountCounter++;
         this.savingBalance = savingBalance;
     }
+
 
     public void calculateMonthlyInterestRate() {
         double monthlyInterest = (savingBalance * annaulInterestRate) / 12;
@@ -18,9 +19,13 @@ class SavingsAccount {
         annaulInterestRate = newInterestRate;
     }
 
-    
     public int getaccountNumber(){
-        return accountNumber;
+        
+    // for(int i=0 ; i<100 ; i++){
+    //     accountNumber=i;
+    //     System.out.println(accountNumber);
+    // }
+    return accountNumber;
     }
 
     public double getsavingBalance(){
