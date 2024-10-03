@@ -18,6 +18,9 @@ class SavingsAccount {
         annaulInterestRate = newInterestRate;
     }
 
+    public int getaccountCounter(){
+        return accountCounter;
+    }
     public int getaccountNumber(){
         return accountNumber;
     }
