@@ -1,16 +1,12 @@
-/**
- * HotelRoom
- */
-class HotelRoom {
+
+public class HotelRoom {
 
     private int roomnumber;
     private String roomType;
     private int roomstatus;
     private double roomrate;
-    public HotelRoom() {
-
-    }
-
+    private boolean occupied;
+    
     // Room number//
     public int getroomnumber() {
         return roomnumber;
@@ -47,5 +43,17 @@ class HotelRoom {
         this.roomrate = roomrate;
     }
 
+// occupied status 
+    public boolean isOccupied() {
+        return occupied;
+    }
 
+    public void setOccupied(boolean occupied) {
+        if (!this.isOccupied()) {
+            this.occupied = occupied;
+            System.out.println("Room " + this.getroomnumber() + " is now occupied.");
+        } else {
+            System.out.println("Room " + this.getroomnumber() + " is already occupied.");
+        }
+    }
 }

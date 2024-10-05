@@ -27,13 +27,14 @@ public class Roomc {
         return roomType;
     }
 
-    public boolean isOccupied() {
+    public boolean getisOccupied() {
         return occupied;
     }
 
     public double getRate() {
         return rate;
     }
+    
     public static void main(String[] args) {
         
         Roomc roomC = new Roomc(202, "Single", false, 90.0);
@@ -41,7 +42,7 @@ public class Roomc {
 
         System.out.println("Room Number: " + roomC.getRoomNumber());
         System.out.println("Room Type: " + roomC.getRoomType());
-        System.out.println("Occupied: " + roomC.isOccupied());
+        System.out.println("Occupied: " + roomC.getisOccupied());
         System.out.println("Rate: $" + roomC.getRate());
     }
 }
