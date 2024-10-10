@@ -12,15 +12,15 @@ public class TestSavingAccount {
 
         System.out.println("account number   "+saver2.getaccountNumber() +" balance  "+saver2.getsavingBalance());
 
-        SavingsAccount.modifyInterestRate(0.5);
-        SavingsAccount newsaver1 = new SavingsAccount(2000);
-        SavingsAccount newsaver2 = new SavingsAccount(3000);
+        // SavingsAccount.modifyInterestRate(0.5);
+        // SavingsAccount newsaver1 = new SavingsAccount(2000);
+        // SavingsAccount newsaver2 = new SavingsAccount(3000);
 
-        newsaver1.calculateMonthlyInterestRate();
-        newsaver2.calculateMonthlyInterestRate();
+        // newsaver1.calculateMonthlyInterestRate();
+        // newsaver2.calculateMonthlyInterestRate();
 
-        System.out.println("account number   "+newsaver1.getaccountNumber() +" balance  "+newsaver1.getsavingBalance());
+        // System.out.println("account number   "+newsaver1.getaccountNumber() +" balance  "+newsaver1.getsavingBalance());
 
-        System.out.println("account number   "+newsaver2.getaccountNumber() +" balance  "+newsaver2.getsavingBalance());
+        // System.out.println("account number   "+newsaver2.getaccountNumber() +" balance  "+newsaver2.getsavingBalance());
     }
 }

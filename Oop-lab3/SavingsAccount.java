@@ -1,3 +1,5 @@
+
+
 class SavingsAccount {
     private static double annaulInterestRate;
     private static  int accountCounter = 1;
@@ -21,10 +23,6 @@ class SavingsAccount {
 
     public int getaccountNumber(){
         
-    // for(int i=0 ; i<100 ; i++){
-    //     accountNumber=i;
-    //     System.out.println(accountNumber);
-    // }
     return accountNumber;
     }
 
@@ -33,3 +31,4 @@ class SavingsAccount {
     }
 
 }
+
