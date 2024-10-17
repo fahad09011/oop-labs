@@ -21,9 +21,8 @@ public class Main {
             
         //     System.out.println("total employees are :"+employee1.getDisplaytottalEmployees());
         // }
-        Employee employee1= new Employee(null, "fahad", "manager", address1);
-        
-        Employee employee2= new Employee(null, "fahad", "manager", address1);
+        Employee employee1= new Employee(null, "fahad", "staff", address1," ");
+        Employee employee2 = new Employee(null, "Atif", "manager", address1," ");
         
         // Employee employee3= new Employee(null, "fahad", "manager", address1);
         // Employee employee4= new Employee(null, "fahad", "manager", address1);

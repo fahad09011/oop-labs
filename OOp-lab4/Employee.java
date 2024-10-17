@@ -8,9 +8,10 @@ public class Employee {
     private String name;
     private String employeeType;
     private Address address ;
+    private String car ;
 
     // constructor of Employee class
-    public Employee(String employeeNumber, String name, String employeeType, Address address) {
+    public Employee(String employeeNumber, String name, String employeeType, Address address, String car) {
         if (totalEmployees<maxEmployees) {
         
             this.employeeNumber = employeeCount++;
@@ -18,6 +19,12 @@ public class Employee {
             this.employeeType = employeeType;
             this.address=address;
             totalEmployees++;
+            if (employeeType=="manager") {
+                this.car=car;
+            }
+            // else{
+            //     System.out.println("only manager have car thanks! ");
+            // }
         }
         else{
             System.out.println("only 5 employyes are allowed to create");
@@ -31,6 +38,14 @@ public class Employee {
 
     // to string methos to display the details of employees
     public String toString(){
-        return employeeNumber+" "+name+" "+employeeType+" "+address.toString();
+        String result = employeeNumber+" "+name+" "+employeeType+" "+address.toString()+" "+car;
+        
+        if (employeeType=="manager") {
+            System.out.println(name+" have a toyota GLI ");
+        }
+        // else{
+        //     System.out.println("only manager have car thanks! ");
+        // }
+        return result;
     }
 }
