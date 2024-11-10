@@ -39,6 +39,7 @@ System.out.println(i+1 +"-"+employee[i].toString());
         }
         return numberOfEmployee;
     }
+    @Override
 public String toString(){
     return " number of employees in office : "+numberOfEmployee;
 }
