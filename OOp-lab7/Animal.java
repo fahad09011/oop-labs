@@ -26,7 +26,7 @@ class Dog extends Animal{
         this.breed = breed;
     }
 
-
+@Override
     public String displayAnimalDetails() {
     return super.displayAnimalDetails()+"\n Dog Breed: "+breed;
     }
