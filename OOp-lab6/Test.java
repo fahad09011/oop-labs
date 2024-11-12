@@ -1,12 +1,12 @@
 public class Test {
 	   public static void main(String[] args) {
-	      // Test Student class
+	    //   Test Student class
 	      Student s1 = new Student("John Doe", "1 FairyLand Ave");
+          System.out.println(s1);
 	      s1.addCourseGrade("H2215", 92);
 	      s1.addCourseGrade("H2202", 68);
 	      s1.printGrades();
 	      System.out.println("Average grade is " + s1.getAverageGrade());
-	      
 	      // Test Teacher class
 	      Teacher t1 = new Teacher("Oisin Cawley", "8 Yellow Brick Road");
 	      System.out.println(t1);
