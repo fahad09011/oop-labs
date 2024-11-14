@@ -4,11 +4,11 @@ public class Driver
   	{ 
   		ThreeDShape threeDShape;
   		Shape 		shape;
-  		Circle 		circle = new Circle("Circle One", "Red", 10.0);
-  		Rectangle	rectangle = new Rectangle("Rectangle One", "Yellow", 15.0, 20.0);
-  		Cylinder	cylinder = new Cylinder("Cylinder One", "Green", 6, 8);
+		Circle circle = new Circle("circle", "orange", 2.4);
+		Rectangle rectangle = new Rectangle("Rectangle", "black", 23.01, 12.11);
+  		Cylinder	cylinder = new Cylinder("Cylinder One", "Green",9.4,5.4);
   		Sphere		sphere = new Sphere("Sphere One", "Blue", 77);
-  		
+  		Triangle triangle = new Triangle("triangle", "red", 1.2, 4);
   		//print them using references of the objects type
   		System.out.println("\n---Using circle reference" + circle.toString());
   		System.out.println("\n---Using rectangle reference" + rectangle.toString());
@@ -17,7 +17,7 @@ public class Driver
   		
   		
 		//		This will not work as a circle or a rectangle are not ThreeDShape objects
-		//  	threeDShape = circle;   
+		 	// threeDShape = circle;   
 
 
 
