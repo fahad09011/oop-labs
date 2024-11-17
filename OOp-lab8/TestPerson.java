@@ -1,5 +1,3 @@
-// File: TestPerson.java
-
 public class TestPerson {
     public static void main(String[] args) {
         // Create an array of Person objects
