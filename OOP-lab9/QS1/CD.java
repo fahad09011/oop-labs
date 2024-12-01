@@ -6,7 +6,7 @@ public class CD extends LibraryItem implements LoanItem {
 
     // Constructor
     public CD(String ID, String band, String title, int numTracks) {
-        super("CD", ID); // Call to LibraryItem constructor
+        super("CD", ID); 
         this.band = band;
         this.title = title;
         this.numTracks = numTracks;
@@ -15,7 +15,7 @@ public class CD extends LibraryItem implements LoanItem {
     // Implementation of calculatePrice
     @Override
     public double calculatePrice() {
-        return numTracks * 1.50; // Example: $1.50 per track
+        return numTracks * 1.50; 
     }
 
     @Override

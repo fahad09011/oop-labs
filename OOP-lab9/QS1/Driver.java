@@ -11,7 +11,7 @@ public class Driver {
         // Display details and calculate price for each item
         for (LibraryItem item : libraryItems) {
             System.out.println(item);
-            if (item instanceof LoanItem) { // Ensure item implements LoanItem
+            if (item instanceof LoanItem) { 
                 System.out.println("Price: $" + ((LoanItem) item).calculatePrice());
             }
             System.out.println("---");

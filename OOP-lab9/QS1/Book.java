@@ -6,7 +6,7 @@ public class Book extends LibraryItem implements LoanItem {
 
     // Constructor
     public Book(String ID, String author, String title, int numPages) {
-        super("Book", ID); // Call to LibraryItem constructor
+        super("Book", ID); 
         this.author = author;
         this.title = title;
         this.numPages = numPages;
@@ -15,7 +15,7 @@ public class Book extends LibraryItem implements LoanItem {
     // Implementation of calculatePrice
     @Override
     public double calculatePrice() {
-        return numPages * 0.10; // Example: 10 cents per page
+        return numPages * 0.10; 
     }
 
     @Override
